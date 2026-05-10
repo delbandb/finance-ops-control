@@ -2,6 +2,13 @@
 
 AdminFlow is a small finance-operations backend for tracking invoices, expenses, and bank transactions. The core idea is simple: keep admin data structured, expose it through a clean API, and add reconciliation logic so incoming payments can be matched against open invoices without guessing.
 
+## Recruiter Quick Scan
+
+- Built a FastAPI backend with SQLAlchemy models, Pydantic schemas, repository helpers, and service-layer reconciliation logic.
+- Added tests for API creation flows, duplicate protection, clean matches, ambiguous matches, apply behavior, dashboard metrics, and health checks.
+- Included Docker, Docker Compose, environment configuration, seed data, architecture notes, and deployment notes.
+- Designed conservative finance logic that sends ambiguous payment matches to manual review instead of applying risky automation.
+
 ## Why I Built It
 
 I wanted a backend project based on a workflow I understand from an admin and finance perspective. In real operations work, the difficult part is rarely just storing invoices. It is knowing which invoices are still open, which payments close them, which transactions need manual review, and what the current cash position looks like.
