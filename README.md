@@ -1,5 +1,7 @@
 # AdminFlow
 
+[![CI](https://github.com/delbandb/finance-ops-control/actions/workflows/ci.yml/badge.svg)](https://github.com/delbandb/finance-ops-control/actions/workflows/ci.yml)
+
 AdminFlow is a small finance-operations backend for tracking invoices, expenses, and bank transactions. The core idea is simple: keep admin data structured, expose it through a clean API, and add reconciliation logic so incoming payments can be matched against open invoices without guessing.
 
 ## Recruiter Quick Scan
