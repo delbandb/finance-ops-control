@@ -21,7 +21,7 @@ async def lifespan(_: FastAPI):
 
 
 app = FastAPI(
-    title="AdminFlow",
+    title=settings.app_name,
     description="Backend for invoices, expenses, bank transactions, and reconciliation work.",
     version="1.0.0",
     lifespan=lifespan,

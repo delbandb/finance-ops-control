@@ -1,4 +1,4 @@
-# Deploying AdminFlow to Railway
+# Deploying Finance Ops Control to Railway
 
 Live demo: [add URL after first deploy]
 

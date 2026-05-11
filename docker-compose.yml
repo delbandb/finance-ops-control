@@ -8,7 +8,7 @@ services:
     env_file:
       - .env
     volumes:
-      - adminflow-data:/app/data
+      - finance-ops-control-data:/app/data
     healthcheck:
       test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/health', timeout=5)"]
       interval: 30s
@@ -17,4 +17,4 @@ services:
       start_period: 10s
 
 volumes:
-  adminflow-data:
+  finance-ops-control-data:

@@ -1,8 +1,8 @@
-# FinanceOpsControl
+# Finance Ops Control
 
 [![CI](https://github.com/delbandb/finance-ops-control/actions/workflows/ci.yml/badge.svg)](https://github.com/delbandb/finance-ops-control/actions/workflows/ci.yml)
 
-AdminFlow is a small finance-operations backend for tracking invoices, expenses, and bank transactions. The core idea is simple: keep admin data structured, expose it through a clean API, and add reconciliation logic so incoming payments can be matched against open invoices without guessing.
+Finance Ops Control is a small finance-operations backend for tracking invoices, expenses, and bank transactions. The core idea is simple: keep admin data structured, expose it through a clean API, and add reconciliation logic so incoming payments can be matched against open invoices without guessing.
 
 ## Recruiter Quick Scan
 
@@ -15,7 +15,7 @@ AdminFlow is a small finance-operations backend for tracking invoices, expenses,
 
 I wanted a backend project based on a workflow I understand from an admin and finance perspective. In real operations work, the difficult part is rarely just storing invoices. It is knowing which invoices are still open, which payments close them, which transactions need manual review, and what the current cash position looks like.
 
-AdminFlow focuses on that practical workflow instead of being a generic CRUD demo.
+Finance Ops Control focuses on that practical workflow instead of being a generic CRUD demo.
 
 ## What It Does
 
