@@ -1,4 +1,4 @@
-# AdminFlow
+# FinanceOpsControl
 
 [![CI](https://github.com/delbandb/finance-ops-control/actions/workflows/ci.yml/badge.svg)](https://github.com/delbandb/finance-ops-control/actions/workflows/ci.yml)
 
